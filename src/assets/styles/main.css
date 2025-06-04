@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Inter Variable';
+    src: url('../fonts/Inter-VariableFont_opsz,wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-stretch: 75% 125%;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter Variable';
+    src: url('../fonts/Inter-Italic-VariableFont_opsz,wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-stretch: 75% 125%;
+    font-style: italic;
+}
+
+:root {
+    /* Tipografías / Fuentes */
+    --font-family-base: 'Inter Variable', sans-serif;
+    --font-weight-base: 400;
+}
+
+/* Estilos generales */
+body {
+    font-family: var(--font-family-base);
+    font-weight: var(--font-weight-base);
+}

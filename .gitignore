@@ -28,3 +28,10 @@ coverage
 *.sw?
 
 *.tsbuildinfo
+
+# Other files by me
+.vscode/
+extensions.json
+.editorconfig
+.prettierrc.json
+eslint.config.js
